@@ -1,0 +1,80 @@
+*{
+/*border-color:red;*/
+margin: 0px;
+padding: 0px;
+
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background: gray;
+
+}
+
+.navegacion ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.col{
+  padding-top: 1.5rem;
+}
+.col img{
+    width: 221px;
+    height: 228px;
+}
+
+
+#octubre {
+    background-color: rgb(53, 47, 47);
+    color: white;
+   
+}
+
+.row{
+  padding-top: 1.5rem;
+}
+ .col-sm-6 img{
+    width: auto;/*400px;*/
+    height: 400px;/*auto;*/ 
+ }
+
+.col-sm-6 article{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.col-sm-6 button{
+  background-color:rgb(53, 47, 47);
+  border-color: white;
+  color: white;
+}
+
+ footer{
+  width: 100%;
+  background: rgb(1, 99, 129);
+  margin: 0px auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+ }
+  
+ footer ol{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+ }
+
+ ol li{
+  color: white;
+ }
+  
+    
+ 
