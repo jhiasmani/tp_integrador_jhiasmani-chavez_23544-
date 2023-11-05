@@ -1,0 +1,46 @@
+*{
+    /*border-color:red;*/
+    margin: 0px;
+    padding: 0px;
+    
+    }
+    
+    body{
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    header{
+      background: gray;
+    
+    }
+    
+    .navegacion ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+   
+    footer{
+        width: 100%;
+        background: rgb(1, 99, 129);
+        margin: 0px auto;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+       }
+    footer ol{
+        display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          list-style: none;
+       }
+      
+       ol li{
+        color: white;
+       }
+        
