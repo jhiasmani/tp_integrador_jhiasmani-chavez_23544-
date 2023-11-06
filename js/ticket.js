@@ -29,7 +29,7 @@ function clickBtnResume(){
       break;
   
     case '15':
-        let porcentajeJ=parseInt(0.5* 200);
+        let porcentajeJ=parseInt(0.15* 200);
         let restaJ = 200-porcentajeJ;
         let totalJ= parseInt(restaJ) * valorCant;
         alert(totalJ);
