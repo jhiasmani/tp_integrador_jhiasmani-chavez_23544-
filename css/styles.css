@@ -25,30 +25,37 @@ a{
   text-decoration: none;
 }
 
-.col{
-  padding-top: 1.5rem;
+.carouselExample{
+  height: auto;
 }
-.col img{
+/*col{
+  padding-top: 0.5rem;
+}*/
+ img{
     width: 221px;
     height: 228px;
 }
 
-
+#honolulu img{
+ width: 100%;
+ height: auto;
+}
 #octubre {
     background-color: rgb(53, 47, 47);
     color: white;
+  
    
 }
 
-.row{
-  padding-top: 1.5rem;
+/*.row{
+  /*padding-top: 1.5rem;
 }
- .col-sm-6 img{
+ /*.col-sm-6 img{
     width: auto;/*400px;*/
-    height: 400px;/*auto;*/ 
- }
-
-.col-sm-6 article{
+   /* height: 400px;/*auto;*/ 
+ /*}*/
+/*
+.col-lg-6 article{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -57,7 +64,7 @@ a{
   background-color:rgb(53, 47, 47);
   border-color: white;
   color: white;
-}
+}*/
 
  footer{
   width: 100%;

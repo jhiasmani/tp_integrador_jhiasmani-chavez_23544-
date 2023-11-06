@@ -28,41 +28,104 @@
 
     </header> 
     <div class="container"> 
-
-        <div>
-            <h2>Estudiante</h2>
-            <p>tiene un descuento</p>
-            <P>80%</P>
+         <!--fila 1-->
+        <div class="row text-center">
+            <div class="col-sm-1 col-lg-4">
+                <h2>Estudiante</h2>
+                <p>tiene un descuento</p>
+                <P>80%</P>
+            </div>
+            <div class="col-sm-1 col-lg-4">
+                <h2>Trainee</h2>
+                <p>tiene un descuento</p>
+                <P>50%</P>
+            </div>
+            <div class="col-sm-1 col-lg-4">  
+                <h2>Junior</h2>
+                <p>tiene un descuento</p>
+                <P>15%</P>
+            </div>
         </div>
-        <div>
-            <h2>Trainee</h2>
-            <p>tiene un descuento</p>
-            <P>50%</P>
-        </div>
-        <div>
-            <h2>Junior</h2>
-            <p>tiene un descuento</p>
-            <P>15%</P>
-        </div>
-        <p>VENTA</p>
-        <h1>Valor de ticket $200</h1>
-        <form action="">
-          <input type="text" placeholder="Nombre" id="nombreT">
-          <input type="text" placeholder="Apellido" id="apellidoT">
-          <input type="text" placeholder="Correo" id="mailT">
-          <input type="text" placeholder="Cantidad" id="cantidadT">
-          
-        <Label>Total a Pagar :$</Label>
-        <button type="submit">Borrar</button>
-        <button type="submit">Resumen</button>
-    </form>
 
-  
+       <!--fila 2 venta-->
+       <div class="row text-center">
+         <div class="col-sm-1 col-lg-12">
+            <p>VENTA</p>
+         </div>
+       </div>
+       
+       <!--fila 3 valor ticket--> 
+       <div class="row text-center">
+         <div class="col-sm-1 col-lg-12">
+            <h1>Valor de ticket $200</h1>
+         </div>
+       </div>
 
+       <!--fila 4 nombre y apellido-->
+       <div class="row">
+            <div class="col-sm-1 col-lg-6">
+                <input type="text" placeholder="Nombre" id="nombreT">
+            </div>
+            <div class="col-sm-1 col-lg-6">
+                <input type="text" placeholder="Apellido" id="apellidoT">
+            </div>
+       </div>
+
+        <!--fila 5 correo-->
+        <div class="row">
+            <div class="col-sm-1 col-lg-12">
+                <input type="text" placeholder="Correo" id="mailT">
+            </div>
+        </div>
+        
+        <!--fila 6 etiquetas cant. y categoria-->
+        <div class="row">
+            <div class="col-sm-1 col-lg-6">
+                <Label> Cantidad</label>
+            </div>
+            <div class="col-sm-1 col-lg-6">
+                <Label> Categoria</label> 
+            </div>
+              
+         <!--fila 7 cantidad y el selectbox-->
+         <div class="row">
+                <div class="col-sm-1 col-lg-6">
+                    <input type="text" placeholder="Cantidad" id="cantidadT">
+                </div>
+                    <!--selectbox-->
+                <div class="col-sm-1 col-lg-6"> 
+                  <select class="form-select" aria-label="Default select example" id="categoriaT">
+                     <option selected>Elije una opcion</option>
+                     <option value="80">Estudiante</option>
+                     <option value="50">Trainee</option>
+                     <option value="15">Junior</option>
+                   </select>
+                </div>
+
+         </div>    
+        </div>
+      
+          <!--fila 7 total a pagar--> 
+         <div class="row">
+            <div class="col-sm-1 col-lg-12"></div>
+            <Label>Total a Pagar : $</Label>
+            <label id="totalT"></label>
+        </div> 
+        
+        <!--fila 8 boton borrar y resume-->
+        <div class="row">
+            <div class="col-sm-1 col-lg-6">
+                <button type="submit" id="borrarT">Borrar</button>
+            </div>
+            <div class="col-sm-1 col-lg-6">
+                <button type="submit" id="resumenT">Resumen</button>
+            </div>
+
+        </div>   
     </div>
     
 <!--footer-->
-    <footer>
+    <footer class="row">
         <ol>
             <li>Preguntas Frecuentes</li>
             <li>Contáctanos</li>
